@@ -1,7 +1,7 @@
 name: tom-sync
 on:
   schedule:
-    - cron: '11 */3 * * *'
+    - cron: '11 16 * * *'
   workflow_dispatch:
   watch:
     types: started
