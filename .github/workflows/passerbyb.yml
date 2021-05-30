@@ -1,7 +1,7 @@
 name: passerby-b-sync
 on:
   schedule:
-    - cron: '12 */3 * * *'
+    - cron: '12 16 * * *'
   workflow_dispatch:
   watch:
     types: started
